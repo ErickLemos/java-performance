@@ -4,8 +4,8 @@ name: spring-jdk-21-env
 services:
   backend:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: spring_jdk_21
+      dockerfile: apps/spring_jdk_21/Dockerfile
     ports:
       - "10003:10003"
     deploy:
